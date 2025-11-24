@@ -106,9 +106,7 @@ This initiative is in a stable release milestone and ready for functional review
 
 - **Anuj Kumar C**
 
----
 
-If you want I can tailor this README for maximum impact — like adding screenshots, feature matrix, badges, or a more corporate documentation tone. Just say the word!
 
 
 
