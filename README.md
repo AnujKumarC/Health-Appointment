@@ -21,15 +21,31 @@ This project streamlines the end-to-end appointment lifecycle for patients and d
 ## 📂 Project Structure
 
 health-appointment
-│── index.php
-│── login.php
-│── register.php
-│── appointment.php
-│── admin/
-│── css/
-│── js/
-│── db.php
-│── README.md
+│
+│── index.php                      # Home page
+│── book_appointment.php           # Book appointment page
+│── appointment_success.php        # Appointment confirmation
+│── db.php                         # DB connection file
+│── logout.php                     # Logout handler
+│
+├── admin/
+│   │── admin_login.php            # Admin login
+│   │── admin_dashboard.php        # Admin panel
+│   │── add_doctor.php             # Add new doctor
+│   │── manage_patients.php        # Manage patient records
+│   │── manage_appointments.php    # Manage booked appointments
+│
+├── patient/
+│   │── patient_login.php          # Patient login
+│   │── patient_register.php       # Patient registration
+│   │── patient_dashboard.php      # Patient dashboard
+│
+├── css/
+│   │── style.css                  # Project styling
+│
+└── sql/
+    │── mysql.txt                  # Database schema (tables included)  
+
 
 ## ⚙️ Deployment Workflow
 
@@ -88,6 +104,7 @@ This initiative is in a stable release milestone and ready for functional review
 ---
 
 If you want I can tailor this README for maximum impact — like adding screenshots, feature matrix, badges, or a more corporate documentation tone. Just say the word!
+
 
 
 
