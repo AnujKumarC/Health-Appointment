@@ -20,33 +20,47 @@ This project streamlines the end-to-end appointment lifecycle for patients and d
 
 ## 📂 Project Structure
 
-health-appointment
-│── index.php                     # Home page
-│── book_appointment.php          # Patient books an appointment
-│── appointment_success.php       # Booking confirmation page
-│── db.php                        # Database connection
-│── logout.php                    # Logout handler
-│
-├── admin/
-│   │── admin_login.php           # Admin Login
-│   │── admin_dashboard.php       # Admin Dashboard
-│   │── add_doctor.php            # Add doctor
-│
-├── patient/
-│   │── patient_login.php         # Patient Login
-│   │── patient_register.php      # Patient Registration
-│   │── patient_dashboard.php     # Patient Dashboard
-│
-├── manage_patients.php           # Admin – Manage Patients
-├── manage_appointments.php       # Admin – Manage Appointments
-├── mysql.txt                     # Database schema
-│
-├── css/
-│   │── style.css                 # Main stylesheet
-│
-└── README.md                     # Documentation
+Root Directory
 
+index.php – Home Page
 
+book_appointment.php – Appointment Booking Page
+
+appointment_success.php – Booking Confirmation Page
+
+db.php – Database Connection File
+
+logout.php – Logout Handler
+
+mysql.txt – Database Schema
+
+README.md – Documentation
+
+📂 admin/
+
+admin_login.php – Admin Login
+
+admin_dashboard.php – Admin Dashboard
+
+add_doctor.php – Add New Doctor
+
+📂 patient/
+
+patient_login.php – Patient Login
+
+patient_register.php – Patient Registration
+
+patient_dashboard.php – Patient Dashboard
+
+📂 css/
+
+style.css – Main Stylesheet
+
+📂 Additional Admin Features
+
+manage_patients.php – Manage Patient Records
+
+manage_appointments.php – Manage Appointments
 
 
 ## ⚙️ Deployment Workflow
@@ -106,6 +120,7 @@ This initiative is in a stable release milestone and ready for functional review
 ---
 
 If you want I can tailor this README for maximum impact — like adding screenshots, feature matrix, badges, or a more corporate documentation tone. Just say the word!
+
 
 
 
